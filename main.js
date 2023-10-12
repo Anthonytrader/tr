@@ -285,7 +285,7 @@ function filterProducts (products) {
      </p>
      <p class="modal_product_long">
       <span>Nombre:</span>${name}<br>
-      <span>Descripción:</span>${description}<br>
+      <span>Descripción:   </span>${description}<br>
       </p> `;
       contentModal.innerHTML = html;
       showModal.classList.add("active");
